@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comet Games</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link rel="icon" href="https://i.ibb.co/B4VGgKh/Comet-Games-Logo-V2.png"/>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,20 +17,20 @@
   <section class="smith-section wrap">
 
     <!--Carousel-->
-    <div id="CometCarousel" class="carousel slide carousel-fade" data-ride="carousel" style="height:80%;box-shadow: 10px 10px 5px #aaaaaa; margin:20px">
+    <div id="CometCarousel" class="carousel slide carousel-slide" data-ride="carousel" style="height:80%;box-shadow: 10px 10px 5px #aaaaaa; margin:20px">
     <label class="carousel-header">Check out our highlighted Library</label> 
     <ol class="carousel-indicators">
-      <li data-target="#CometCarousels" data-slide-to="0" ></li>
+      <li data-target="#CometCarousel" data-slide-to="0"></li>
       <li data-target="#CometCarousel" data-slide-to="1"></li>
-      <li data-target="#CometCarousels" data-slide-to="2"></li>
-      <li data-target="#CometCarousels" data-slide-to="3" class="active"></li>
-      <li data-target="#CometCarousels" data-slide-to="4"></li>
-      <li data-target="#CometCarousels" data-slide-to="5"></li>
-      <li data-target="#CometCarousels" data-slide-to="6"></li>
+      <li data-target="#CometCarousel" data-slide-to="2"></li>
+      <li data-target="#CometCarousel" data-slide-to="3"></li>
+      <li data-target="#CometCarousel" data-slide-to="4" class="active"></li>
+      <li data-target="#CometCarousel" data-slide-to="5"></li>
+      <li data-target="#CometCarousel" data-slide-to="6"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item" data-interval="3000">
-        <img class="d-block w-100 img-responsive" style="height:80vh;width:80vh" src="img/Deus-Ex-Human-Revolution.jpg" alt="First slide">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=Kq5KWLqUewc"><img class="d-block w-100 img-responsive" style="height:80vh;width:80vh" src="img/Deus-Ex-Human-Revolution.jpg" alt="First slide"></a>
         <div class="carousel-caption d-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
@@ -47,7 +45,7 @@
         </div>
       </div>
       <div class="carousel-item data-interval="3000">
-        <img class="d-block w-100 img-responsive" src="img/Kingdom-Come-Deliverance.jpg" style="height:80vh;width:80vh" alt="Second slide">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=F1z6ubHowgA"><img class="d-block w-100 img-responsive" src="img/Kingdom-Come-Deliverance.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
         <div class="carousel-caption d-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
@@ -62,7 +60,7 @@
         </div>
       </div>
       <div class="carousel-item data-interval="3000">
-        <img class="d-block w-100 img-responsive" src="img/Streets-of-Rage-4.jpg" style="height:80vh;width:80vh" alt="Third slide">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=j_JtczD-9Ko"><img class="d-block w-100 img-responsive" src="img/Streets-of-Rage-4.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
         <div class="carousel-caption d-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
@@ -77,7 +75,7 @@
         </div>
       </div>
       <div class="carousel-item active data-interval="3000">
-        <img class="d-block w-100 img-responsive" src="img/The-Surge-2.jpg" style="height:80vh;width:80vh" alt="Third slide">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=ZUmUoyS--5I"><img class="d-block w-100 img-responsive" src="img/The-Surge-2.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
         <div class="carousel-caption d-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
@@ -92,7 +90,7 @@
         </div>
       </div>
       <div class="carousel-item data-interval="3000">
-        <img class="d-block w-100 img-responsive" src="img/Pathfinder-Kingmaker.jpg" style="height:80vh;width:80vh" alt="Third slide">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=7uYgpGbIMSs"><img class="d-block w-100 img-responsive" src="img/Pathfinder-Kingmaker.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
         <div class="carousel-caption d-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
@@ -107,7 +105,7 @@
         </div>
       </div>
       <div class="carousel-item data-interval="3000">
-        <img class="d-block w-100 img-responsive" src="img/Witcher-3-GOTY.jpg" style="height:80vh;width:80vh" alt="Third slide">
+        <a class="trailer-link" href="https://youtube.com/watch?v=XHrskkHf958"><img class="d-block w-100 img-responsive" src="img/Witcher-3-GOTY.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
         <div class="carousel-caption d-md-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
@@ -122,7 +120,7 @@
         </div>
       </div>
       <div class="carousel-item data-interval="3000">
-        <img class="d-block w-100 img-responsive" src="img/X-Com 2.jpg" style="height:80vh;width:80vh" alt="Third slide">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=PqwzIgp0Nk0"><img class="d-block w-100 img-responsive" src="img/X-Com 2.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
         <div class="carousel-caption d-md-block">
           <div class="card float-right" style="width: 18rem; background: rgba(255,255,255,0.9);
           box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1">
@@ -155,7 +153,7 @@
   <div class="row row-cols-1 row-cols-md-3 justify-content-center">
     <div class="col mb-4">
       <div class="card h-100">
-        <img src="img/Battle-Brothers.jpg" class="card-img-top" alt="Battle Brothers">
+        <a href="https://www.youtube.com/watch?v=C5_eSS-NTeU" class="trailer-link">><img src="img/Battle-Brothers.jpg" class="card-img-top" alt="Battle Brothers"></a>
         <div class="card-body">
           <h5 class="card-title" style="font-weight: bold;">Battle Brothers</h5>
           <p class="card-text text-left"><u>Available for Windows.</u><br>
@@ -167,7 +165,7 @@
     </div>
     <div class="col mb-4">
       <div class="card h-100">
-        <img src="img/Fallout-New-Vegas.jpg" class="card-img-top" alt="Fallout New Vegas">
+        <a href="https://www.youtube.com/watch?v=cIzOttk6Dv4" class="trailer-link">><img src="img/Fallout-New-Vegas.jpg" class="card-img-top" alt="Fallout New Vegas"></a>
         <div class="card-body">
           <h5 class="card-title" style="font-weight: bold;">Fallout New Vegas</h5>
           <p class="card-text text-left"><u>Available for Windows.</u><br>
@@ -179,7 +177,7 @@
     </div>
     <div class="col mb-4">
       <div class="card h-100">
-        <img src="img/FEAR.jpg" class="card-img-top" alt="FEAR">
+        <a href="https://www.youtube.com/watch?v=Z2MsqqBj9LQ" class="trailer-link">><img src="img/FEAR.jpg" class="card-img-top" alt="FEAR"></a>
         <div class="card-body">
           <h5 class="card-title" style="font-weight: bold;">F.E.A.R.</h5>
           <p class="card-text text-left"><u>Available for Windows.</u><br>
@@ -192,7 +190,7 @@
     </div>
     <div class="col mb-4 ">
       <div class="card h-100">
-        <img src="img/Dead-Space.jpg" class="card-img-top" alt="Dead Space">
+        <a href="https://www.youtube.com/watch?v=RYaJCmJgb9A" class="trailer-link">><img src="img/Dead-Space.jpg" class="card-img-top" alt="Dead Space"></a>
         <div class="card-body">
           <h5 class="card-title" style="font-weight: bold;">Dead Space</h5>
           <p class="card-text text-left"><u>Available for Windows.</u><br>
@@ -205,7 +203,7 @@
     </div>
     <div class="col mb-4">
       <div class="card h-100">
-        <img src="img/Stronghold-Crusader-HD.jpg" class="card-img-top" alt="Stronghold Crusader">
+        <a href="https://www.youtube.com/watch?v=6uXUvF3oe-8" class="trailer-link">><img src="img/Stronghold-Crusader-HD.jpg" class="card-img-top" alt="Stronghold Crusader HD"></a>
         <div class="card-body">
           <h5 class="card-title" style="font-weight: bold;">Stronghold Crusader HD</h5>
           <p class="card-text text-left"><u>Available for Windows.</u><br>
@@ -232,7 +230,13 @@
 
 
 
-  
+<!--javascript section-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script src="magnific.js"></script>
 
 </body>
 
