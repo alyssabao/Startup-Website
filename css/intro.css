@@ -14,7 +14,6 @@ body {
 a {
   position: relative;
   display: inline-block;
-  width: 250px;
   padding: 25px 30px;
   margin: 40px 40px;
   color: lightblue;
@@ -119,4 +118,5 @@ img {
     justify-content: center;
     flex-flow: row wrap;
     align-items: center;
+    width: 600px;
   }
