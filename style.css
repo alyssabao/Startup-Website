@@ -12,12 +12,20 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-size:cover;
+    height:100vh;
 }
 
 .Alyssa-h1 {
     font-weight: bolder;
     color: white;
     padding-bottom: 50px;
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    30% {
+        letter-spacing:10px;
+    }
 }
 
 .Alyssa-searchbar {
