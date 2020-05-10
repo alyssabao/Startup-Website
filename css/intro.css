@@ -14,10 +14,10 @@ body {
 a {
   position: relative;
   display: inline-block;
-  padding: 25px 30px;
-  margin: 40px 40px;
+  padding: 15px 15px;
+  margin: 30px 30px;
   color: lightblue;
-  font-size: 24px;
+  font-size: 25px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -113,10 +113,10 @@ img {
   width: 100px;
   height: auto;
 }
-.col-sm {
+.col {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     align-items: center;
-    width: 600px;
+    margin:0;
   }

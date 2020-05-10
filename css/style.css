@@ -163,9 +163,10 @@ body {
 
 .Alyssa-sec2 {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin:20px;
+    min-height:100vh;
+    align-content: center;
 }
 
 .Alyssa-bold {
