@@ -5,14 +5,337 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comet Games</title>
-    <link rel="icon" href="https://i.ibb.co/B4VGgKh/Comet-Games-Logo-V2.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />    
-    <link rel="stylesheet" crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"/>
-    <link rel="stylesheet" crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"/>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="icon" href="https://i.ibb.co/B4VGgKh/Comet-Games-Logo-V2.png"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
- </head>
+</head>
 
 <body>
+  <!---This is Tuong section-->
+  <section class="smith-section wrap">
+
+    <!--Carousel-->
+    <div id="CometCarousel" class="carousel slide carousel-slide cols-1" data-ride="carousel" style="height:100%;box-shadow: 10px 10px 5px #aaaaaa; margin:20px">
+    <label class="carousel-header">Check out our highlighted Library</label> 
+    <ol class="carousel-indicators">
+      <li data-target="#CometCarousel" data-slide-to="0"></li>
+      <li data-target="#CometCarousel" data-slide-to="1"></li>
+      <li data-target="#CometCarousel" data-slide-to="2"></li>
+      <li data-target="#CometCarousel" data-slide-to="3"></li>
+      <li data-target="#CometCarousel" data-slide-to="4" class="active"></li>
+      <li data-target="#CometCarousel" data-slide-to="5"></li>
+      <li data-target="#CometCarousel" data-slide-to="6"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item" data-interval="3000">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=Kq5KWLqUewc"><img class="d-block w-100 img-responsive" style="height:80vh;width:80vh" src="img/Deus-Ex-Human-Revolution.jpg" alt="First slide"></a>
+        <div class="carousel-caption d-block">
+          <div class="card float-right h-100" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold;">Deus Ex: Human Evolution -<br>Director's Cut </h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $19.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="carousel-item data-interval="3000">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=F1z6ubHowgA"><img class="d-block w-100 img-responsive" src="img/Kingdom-Come-Deliverance.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
+        <div class="carousel-caption d-block">
+          <div class="card float-right h-100" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold">Kingdom Come: Deliverance -<br> Royal Edition</h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $19.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="carousel-item data-interval="3000">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=j_JtczD-9Ko"><img class="d-block w-100 img-responsive" src="img/Streets-of-Rage-4.jpg" style="height:80vh;width:80vh" alt="Third slide"></a>
+        <div class="carousel-caption d-block">
+          <div class="card float-right h-100" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold;">Street of Rage 4</h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $29.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="carousel-item active data-interval="3000">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=ZUmUoyS--5I"><img class="d-block w-100 img-responsive" src="img/The-Surge-2.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
+        <div class="carousel-caption d-block">
+          <div class="card float-right h-100" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold;">The Surge 2 -<br>Premium Edition</h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $19.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item data-interval="3000">
+        <a class="trailer-link h-100" href="https://www.youtube.com/watch?v=7uYgpGbIMSs"><img class="d-block w-100 img-responsive" src="img/Pathfinder-Kingmaker.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
+        <div class="carousel-caption d-block">
+          <div class="card float-right" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold;">Pathfinder: Kingmaker -<br> Enhanced Edition</h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $29.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item data-interval="3000">
+        <a class="trailer-link" href="https://youtube.com/watch?v=XHrskkHf958"><img class="d-block w-100 img-responsive" src="img/Witcher-3-GOTY.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
+        <div class="carousel-caption d-md-block">
+          <div class="card float-right h-100" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold;">Witcher 3: Wild Hunt -<br> Complete Edition</h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $9.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item data-interval="3000">
+        <a class="trailer-link" href="https://www.youtube.com/watch?v=PqwzIgp0Nk0"><img class="d-block w-100 img-responsive" src="img/X-Com 2.jpg" style="height:80vh;width:80vh" alt="Second slide"></a>
+        <div class="carousel-caption d-md-block">
+          <div class="card float-right h-100" style="width: 18rem; background-color: rgba(255,255,255,0.9);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.4); color:black; z-index:1">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold;">XCOM 2 Collection</h5>
+              <p class="card-text"><u>Now Available on Windows</u><br>
+                Price: $9.99
+              </p>
+              <a href="#" class="btn btn-danger">COM-ET IT!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#CometCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="color:silver; border-radius:100%; background-color:black; border: 2px solid silver"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#CometCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="color:silver; border-radius:100%; background-color:black; border: 2px solid silver"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--end of carousel-->
+
+
+  <!--Old but Good Titles-->
+ <div class="smith-container-oldgames" style ="margin:20px">
+      <label class="Old-games-header">Check out our Oldies but Goodies!</label> 
+      <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+          <div class="col mb-4" >
+          <div class="card h-100" style="box-shadow: 0 5px 15px rgba(0,0,0,0.4)">
+        <a href="https://www.youtube.com/watch?v=C5_eSS-NTeU" class="trailer-link"><img src="img/Battle-Brothers.jpg" class="card-img-top" alt="Battle Brothers"></a>
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Battle Brothers</h5>
+          <p class="card-text text-left"><u>Available for Windows.</u><br>
+          Hire mercenaries. Develop your brothers.<br> Utilize tactics to slay monsters and knights and make money.<br> 
+          Price: <strong>$15</strong></p>
+          <a href="#" class="btn btn-danger float-right">COM-ET IT!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100"style="box-shadow: 0 5px 15px rgba(0,0,0,0.4)">
+        <a href="https://www.youtube.com/watch?v=cIzOttk6Dv4" class="trailer-link"><img src="img/Fallout-New-Vegas.jpg" class="card-img-top" alt="Fallout New Vegas"></a>
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Fallout New Vegas</h5>
+          <p class="card-text text-left"><u>Available for Windows.</u><br>
+           Be a hero. Be a ruffian. Be anyone.<br> Decide the fate of Mojave Wasteland.<br> 
+          Price: <strong>$5</strong></p>
+            <a href="#" class="btn btn-danger float-right">COM-ET IT!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100" style="box-shadow: 0 5px 15px rgba(0,0,0,0.4)">
+        <a href="https://www.youtube.com/watch?v=Z2MsqqBj9LQ" class="trailer-link"><img src="img/FEAR.jpg" class="card-img-top" alt="FEAR"></a>
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">F.E.A.R.</h5>
+          <p class="card-text text-left"><u>Available for Windows.</u><br>
+          First Encounter Assault Recon.<br>
+          'Nuff said!<br> 
+          Price: <strong>$5</strong></p>
+          <a href="#" class="btn btn-danger float-right">COM-ET IT!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4 ">
+      <div class="card h-100" style="box-shadow: 0 5px 15px rgba(0,0,0,0.4)">
+        <a href="https://www.youtube.com/watch?v=RYaJCmJgb9A" class="trailer-link"><img src="img/Dead-Space.jpg" class="card-img-top" alt="Dead Space"></a>
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Dead Space</h5>
+          <p class="card-text text-left"><u>Available for Windows.</u><br>
+            Something went wrong in the Ishimura.<br>
+            Very wrong.<br> 
+            Price: <strong>$5</strong></p>
+          <a href="#" class="btn btn-danger float-right">COM-ET IT!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100" style="box-shadow: 0 5px 15px rgba(0,0,0,0.4)">
+        <a href="https://www.youtube.com/watch?v=6uXUvF3oe-8" class="trailer-link"><img src="img/Stronghold-Crusader-HD.jpg" class="card-img-top" alt="Stronghold Crusader HD"></a>
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Stronghold Crusader HD</h5>
+          <p class="card-text text-left"><u>Available for Windows.</u><br>
+            <em>"Extra rations?"</em>.<br> 
+            <em>"Welcome Sire, your Stronghold awaits you!"</em><br>
+            Price: <strong>$5</strong></p>
+            <a href="#" class="btn btn-danger float-right" style ="font-weight: 400">COM-ET IT!</a>
+           </div>
+         </div>
+        </div>
+       </div>
+    </div>     
+<!--end of oldies but goodies-->
+
+
+<!--map section-->
+<div class="smith-container-map" style="margin:20px;">
+  <!--Section: Contact v.1-->
+<div class="section cols-1 cols-md-2">
+
+  <!--Section heading-->
+  <h4 class="section-heading h4 pt-4" style ="margin:20px">Contact us</h4>
+  <!--Section description-->
+  <p class="section-description pb-4" style ="margin:20px">We are currently forming a small office in <em>Manhattan, New York City, NY, USA</em>. The rent cost is very high and the Coronavirus situation is not good looking. <br>But feel free to drop by and have a beer!</p>
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-5 mb-4">
+
+      <!--Form with header-->
+      <div class="card h-100 w-100", style="box-shadow: 0 5px 15px rgba(0,0,0,0.4)">
+        <div class="card-body">
+          <!--Header-->
+          <div class="text-center">
+          <div class="form-header btn btn-primary" style="
+          padding: 1rem;
+          margin-top: -3.13rem;
+          margin-bottom: 3rem;
+          color: #fff;
+          text-align: center;
+          border-radius: .125rem;
+          box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);"
+          >
+          <h4><i class="fas fa-envelope"></i> Write to us</h4>
+          </div>
+          </div>
+          <!--Body-->
+          <form>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Your name">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                </div>
+                <input type="text" class="form-control" id="email" placeholder="Your email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-tag"></i></span>
+                </div>
+                <input type="text" class="form-control" id="subject" placeholder="Your subject">
+                </div>
+              </div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-pen"></i></span>
+                </div>
+                <textarea type="text" class="form-control" rows="5" id="text" placeholder="Write what you want here"></textarea>
+                </div>
+              </div>
+            <div class="form-group">
+              <div class="input-group justify-content-center">
+            <button class="btn btn-danger">Submit</button>
+          </div>
+          </form>
+        </div>        
+      </div>
+      <!--Form with header-->
+    </div>
+  </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7 mb-4">
+
+      <!--Google map-->
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 300px">
+        <iframe width="300" height="300" frameborder="0" style="border:0" src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe> 
+      </div>
+
+      <br>
+      <!--Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4" style="border:2px dashed black">
+          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt fa-2x text-danger"></i></a>
+          <p>Manhattan, New York, NY</p>
+          <p>USA</p>
+        </div>
+
+        <div class="col-md-4" style="border:2px dashed black">
+          <a class="btn-floating blue accent-1"><i class="fas fa-phone fa-2x text-danger"></i></a>
+          <p>+646-888-2942</p>
+          <p>Mon - Fri, 8:00-17:00</p>
+        </div>
+
+        <div class="col-md-4" style="border:2px dashed black">
+          <a class="btn-floating blue accent-1"><i class="fas fa-envelope fa-2x text-danger"></i></a>
+          <a href="#"><p>comet.sale@fivemail.com</p></a>
+          <a href="#"><p>five.elements@fivemail.com</p></a>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+
+</div>
+<!--Section: Contact v.1-->
+</div>
+    </section>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top round-lg" style="background-color: #161A21;">
         <a class="navbar-brand border-right border-white" href="#" style="padding-right: 20px">
             <!-- Caution: Max height of the navigation bar from Bootstrap is 68px.-->
@@ -110,18 +433,13 @@
             <img src="https://img-9gag-fun.9cache.com/photo/aXjQzVb_700bwp.webp" width="400px" style="margin: 50px;">
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="js/magnific.js"></script>
+    <script src="https://kit.fontawesome.com/c5ed0f55e9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
