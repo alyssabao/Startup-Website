@@ -1,6 +1,6 @@
 body {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color:#3f4857
+    background-color:#3f4857;
 }
 
 :root {
@@ -171,6 +171,5 @@ body {
 
 .Alyssa-space {
     margin-top: 30px;
-
 }
 
