@@ -148,6 +148,8 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 5%;
+    background-color:#3f4857;
+    color: white;
 }
 
 .Alyssa-sec2 {
